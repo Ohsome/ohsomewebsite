@@ -31,7 +31,7 @@
 
     <!-- Temporary navbar container fix until Bootstrap 4 is patched -->
     <style>
-    .navbar-toggler {
+    .navbar-toggley {
         z-index: 1;
     }
     
@@ -49,7 +49,7 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
         <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggley navbar-toggley-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top"><img class="nav-logo" src="img/logo.png" alt="Ohsome Home"></a>
@@ -62,7 +62,7 @@
                         <a class="nav-link page-scroll" href="#portfolio">Experiences</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="http://analytics.ohsomeinteractive.com">Analytics</a>
+                        <a class="nav-link page-scroll" href="#platform">Platform</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#about">About</a>
@@ -333,6 +333,19 @@
             </div>
         </div>
     </section>
+    
+    <!-- Platform -->
+    <section id="platform">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Platform</h2>
+                    <h3 class="section-subheading">You want more than just an app. You want a platform</h3>
+                    <a href="http://analytics.ohsomeinteractive.com/" class="btn btn-xl">Check Out the Ohsome Platform</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- About -->
     <section id="about">
@@ -522,7 +535,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form id="contactForm" name="sentMessage" novalidate>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -682,14 +695,6 @@
                                         <img class="img-fluid carousel-image" src="img/portfolio/01-full.jpg" alt="">
                                     </div>
                                   </div>
-                                  <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                  </a>
-                                  <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                  </a>
                                 </div>
                                 <p>Test your memory in this fun matching game</p>
                                 <ul class="list-inline">
@@ -732,7 +737,7 @@
                                       <div class="carousel-video-parent"><div data-type="vimeo" data-video-id="212661588" class="carousel-video"></div></div>
                                     </div>
                                     <div class="carousel-item video-item">
-                                      <div class="carousel-video-parent"><div data-type="vimeo" data-video-id="208757962" class="carousel-video"></div></div>
+                                      <div class="carousel-video-parent"><div data-type="vimeo" data-video-id="213741875" class="carousel-video"></div></div>
                                     </div>
                                     <div class="carousel-item image-item">
                                         <img class="img-fluid carousel-image" src="img/portfolio/eventsdcbikevr/2.jpg" alt="">
@@ -1444,6 +1449,15 @@
         
         });
 
+    </script>
+    <script type="text/javascript">
+        var fesdpid = '3zt4c3l1xu';
+        var fesdp_BaseURL = (("https:" == document.location.protocol) ? "https://fe.sitedataprocessing.com/fewv1/" : "http://fe.sitedataprocessing.com/fewv1/");
+        (function () {
+        var va = document.createElement('script'); va.type = 'text/javascript'; va.async = true;
+        va.src = fesdp_BaseURL + 'Scripts/fewliveasync.js';
+        var sv = document.getElementsByTagName('script')[0]; sv.parentNode.insertBefore(va, sv);
+        })();
     </script>
 </body>
 
