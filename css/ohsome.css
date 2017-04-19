@@ -219,11 +219,7 @@ header {
       margin-bottom: 50px; } }
 
 .platform-header{
-    background-color: #222222;
-    background-image: url("../img/platform-header-bg.jpg");
-    background-position: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    
 }
 
 .video-background { /* class name used in javascript too */
@@ -408,6 +404,10 @@ section#features {
     position: relative;
     top: 50%;
 }
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.3);
+} 
 
 section#platform {
   background-color: #222222;

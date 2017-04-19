@@ -31,8 +31,11 @@
 
     <!-- Temporary navbar container fix until Bootstrap 4 is patched -->
     <style>
-    .navbar-toggley {
+    .navbar-toggler {
         z-index: 1;
+        width: auto;
+        height: auto;
+        margin-top: 5px;
     }
     
     @media (max-width: 576px) {
@@ -49,7 +52,7 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
         <div class="container">
-            <button class="navbar-toggley navbar-toggley-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top"><img class="nav-logo" src="img/logo.png" alt="Ohsome Home"></a>
