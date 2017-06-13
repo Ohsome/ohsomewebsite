@@ -301,6 +301,58 @@ section#features {
   section#features .text-danger {
     color: #e74c3c; }
 
+section#stats {
+  background-color: #000;
+  background-size: 100% auto; }
+  section#stats .section-heading {
+    color: white; }
+  section#stats .section-subheading {
+    color: lightgray; }
+  section#stats .service-heading {
+    color: white;
+  }
+  section#stats .form-group {
+    margin-bottom: 25px; }
+    section#stats .form-group input,
+    section#stats .form-group textarea {
+      padding: 20px; }
+    section#stats .form-group input.form-control {
+      height: auto; }
+    section#stats .form-group textarea.form-control {
+      height: 236px; }
+  section#stats .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none; }
+  section#stats ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  section#stats :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  section#stats ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  section#stats :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  section#stats .text-danger {
+    color: #e74c3c; }
+
+.stat-number{
+    color: #fed136;
+    font-size: 6em;
+}
+
 #portfolio .container{
     width: 90%;
 }
